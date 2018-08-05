@@ -1,0 +1,74 @@
+2018-07-13 14:26:54,506 INFO  [license] ReadyAPI 2.4.0 (build 814) started - System properties: {OS=Windows 10, User name=Barbara}
+2018-07-13 14:27:03,877 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for SoapUI
+2018-07-13 14:27:03,879 DEBUG [LicenseManagerServiceImpl] No license found for SoapUI
+2018-07-13 14:27:03,930 DEBUG [LicenseManagerServiceImpl] License host for SoapUI: CREATIVEWEBMATRIXSOLUTIONS
+2018-07-13 14:27:04,306 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for SoapUI
+2018-07-13 14:27:04,307 DEBUG [LicenseManagerServiceImpl] No license found for SoapUI
+2018-07-13 14:27:04,367 DEBUG [LicenseManagerServiceImpl] License host for SoapUI: CREATIVEWEBMATRIXSOLUTIONS
+2018-07-13 14:27:04,973 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for Secure
+2018-07-13 14:27:04,974 DEBUG [LicenseManagerServiceImpl] No license found for Secure
+2018-07-13 14:27:05,056 DEBUG [LicenseManagerServiceImpl] License host for Secure: CREATIVEWEBMATRIXSOLUTIONS
+2018-07-13 14:27:05,400 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for LoadUI
+2018-07-13 14:27:05,401 DEBUG [LicenseManagerServiceImpl] No license found for LoadUI
+2018-07-13 14:27:05,530 DEBUG [LicenseManagerServiceImpl] License host for LoadUI: CREATIVEWEBMATRIXSOLUTIONS
+2018-07-13 14:27:06,059 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for ServiceV
+2018-07-13 14:27:06,060 DEBUG [LicenseManagerServiceImpl] No license found for ServiceV
+2018-07-13 14:27:06,235 DEBUG [LicenseManagerServiceImpl] License host for ServiceV: CREATIVEWEBMATRIXSOLUTIONS
+2018-07-13 14:28:39,453 ERROR [LicenseBootstrap] Failed to install trial license.
+com.smartbear.ready.license.exception.InvalidLicenseException: The trial license couldn't be downloaded due to an internal error on server. Please contact ReadyAPI Support.<br><br><a href="https://support.smartbear.com/readyapi/docs/general-info/licensing/troubleshooting/index.html?version=2.4.0">More information</a>
+	at com.smartbear.ready.license.util.LicenseFileUtil.downloadLicenseFileFromServer(LicenseFileUtil.java:516)
+	at com.smartbear.ready.license.util.LicenseFileUtil.downloadLicenseFileFromServer(LicenseFileUtil.java:500)
+	at com.smartbear.ready.license.LicenseBootstrap.installTrialLicenseForDownloadKey(LicenseBootstrap.java:66)
+	at com.smartbear.ready.ui.ReadyApiMain.main(ReadyApiMain.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:65)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:101)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:26)
+2018-07-13 14:28:47,461 DEBUG [LicenseManagerAction] Opening License Manager
+2018-07-13 14:28:48,045 DEBUG [LicenseManagerView] License server accessible
+2018-07-13 14:47:18,237 ERROR [StartTrialAction] The trial license couldn't be downloaded due to an internal error on server. Please contact ReadyAPI Support.<br><br><a href="https://support.smartbear.com/readyapi/docs/general-info/licensing/troubleshooting/index.html?version=2.4.0">More information</a>
+com.smartbear.ready.license.exception.InvalidLicenseException: The trial license couldn't be downloaded due to an internal error on server. Please contact ReadyAPI Support.<br><br><a href="https://support.smartbear.com/readyapi/docs/general-info/licensing/troubleshooting/index.html?version=2.4.0">More information</a>
+	at com.smartbear.ready.license.util.LicenseFileUtil.downloadLicenseFileFromServer(LicenseFileUtil.java:516)
+	at com.smartbear.ready.license.util.LicenseFileUtil.downloadLicenseFileFromServer(LicenseFileUtil.java:500)
+	at com.smartbear.ready.license.action.StartTrialAction$2.construct(StartTrialAction.java:409)
+	at com.eviware.soapui.support.swing.SwingWorkerDelegator.construct(SwingWorkerDelegator.java:47)
+	at com.eviware.soapui.support.swing.SwingWorker.run(SwingWorker.java:88)
+2018-07-18 18:34:05,555 INFO  [license] ReadyAPI 2.4.0 (build 814) started - System properties: {OS=Windows 10, User name=Barbara}
+2018-07-18 18:34:17,224 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for SoapUI
+2018-07-18 18:34:17,225 DEBUG [LicenseManagerServiceImpl] No license found for SoapUI
+2018-07-18 18:34:17,335 DEBUG [LicenseManagerServiceImpl] License host for SoapUI: CREATIVEWEBMATRIXSOLUTIONS
+2018-07-18 18:34:17,645 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for SoapUI
+2018-07-18 18:34:17,699 DEBUG [LicenseManagerServiceImpl] License host for SoapUI: CREATIVEWEBMATRIXSOLUTIONS
+2018-07-18 18:34:17,702 DEBUG [LicenseManagerServiceImpl] No license found for SoapUI
+2018-07-18 18:34:18,176 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for Secure
+2018-07-18 18:34:18,185 DEBUG [LicenseManagerServiceImpl] No license found for Secure
+2018-07-18 18:34:18,306 DEBUG [LicenseManagerServiceImpl] License host for Secure: CREATIVEWEBMATRIXSOLUTIONS
+2018-07-18 18:34:18,554 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for LoadUI
+2018-07-18 18:34:18,571 DEBUG [LicenseManagerServiceImpl] No license found for LoadUI
+2018-07-18 18:34:18,701 DEBUG [LicenseManagerServiceImpl] License host for LoadUI: CREATIVEWEBMATRIXSOLUTIONS
+2018-07-18 18:34:18,848 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for ServiceV
+2018-07-18 18:34:18,848 DEBUG [LicenseManagerServiceImpl] No license found for ServiceV
+2018-07-18 18:34:18,885 DEBUG [LicenseManagerServiceImpl] License host for ServiceV: CREATIVEWEBMATRIXSOLUTIONS
+2018-07-18 18:34:19,984 INFO  [license] ReadyAPI 2.4.0 (build 814) started - System properties: {OS=Windows 10, User name=Barbara}
+2018-07-18 18:34:26,280 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for SoapUI
+2018-07-18 18:34:26,284 DEBUG [LicenseManagerServiceImpl] No license found for SoapUI
+2018-07-18 18:34:26,342 DEBUG [LicenseManagerServiceImpl] License host for SoapUI: CREATIVEWEBMATRIXSOLUTIONS
+2018-07-18 18:34:26,709 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for SoapUI
+2018-07-18 18:34:26,731 DEBUG [LicenseManagerServiceImpl] No license found for SoapUI
+2018-07-18 18:34:26,770 DEBUG [LicenseManagerServiceImpl] License host for SoapUI: CREATIVEWEBMATRIXSOLUTIONS
+2018-07-18 18:34:27,170 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for Secure
+2018-07-18 18:34:27,171 DEBUG [LicenseManagerServiceImpl] No license found for Secure
+2018-07-18 18:34:27,292 DEBUG [LicenseManagerServiceImpl] License host for Secure: CREATIVEWEBMATRIXSOLUTIONS
+2018-07-18 18:34:27,602 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for LoadUI
+2018-07-18 18:34:27,603 DEBUG [LicenseManagerServiceImpl] No license found for LoadUI
+2018-07-18 18:34:27,628 DEBUG [LicenseManagerServiceImpl] License host for LoadUI: CREATIVEWEBMATRIXSOLUTIONS
+2018-07-18 18:34:27,926 DEBUG [LicenseManagerServiceImpl] Trying to initialize license for ServiceV
+2018-07-18 18:34:27,927 DEBUG [LicenseManagerServiceImpl] No license found for ServiceV
+2018-07-18 18:34:27,986 DEBUG [LicenseManagerServiceImpl] License host for ServiceV: CREATIVEWEBMATRIXSOLUTIONS
+2018-07-18 18:35:12,607 DEBUG [LicenseManagerAction] Opening License Manager
+2018-07-18 18:35:14,296 DEBUG [LicenseManagerView] License server accessible
+2018-07-18 18:55:50,219 DEBUG [LicenseManagerAction] Opening License Manager
+2018-07-18 18:55:50,252 DEBUG [LicenseManagerView] License server accessible
